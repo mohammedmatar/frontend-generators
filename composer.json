@@ -1,0 +1,24 @@
+{
+    "name": "frontend/generators",
+    "description": "Angular generators for Artisan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Matar",
+            "email": "mohammedmatar@yandex.com"
+        },
+        {
+            "name": "Mohamed Matar",
+            "email": "mohammedmatar@yandex.com"
+        }
+    ],
+    "require": {
+        "illuminate/console": "5.1.* || 5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Frontend\\Generators\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,24 @@
+<div class="dialog">
+    <form ng-submit="vm.save()">
+
+        <section class="toolbar">
+          <div class="toolbar-tools">
+            <h2>{{HumanReadableName}}</h2>
+          </div>
+        </section>
+
+        <section class="dialog-content-container">
+            <div class="dialog-content">
+                <div class="input-container">
+                    <label>Data</label>
+                    <input type="text">
+                </div>
+             </div>
+        </section>
+
+        <section class="dialog-actions">
+            <button type="button" ng-click="vm.cancel()">Cancel</button>
+            <button type="submit">Save</button>
+        </section>
+    </form>
+</div>
