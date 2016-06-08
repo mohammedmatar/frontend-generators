@@ -76,6 +76,9 @@ class AngularComponent extends Command
         File::put($folder.'/'.$name.'.scss', $scss);
 
         if (!$this->option('no-spec') && config('generators.tests.enable.components')) {
+          if (!is_dir($spec_folder)){
+              File::makeDirectory($spec_folder, 0775, true);
+          }
             //create spec file (.component.spec.js)
             File::put($spec_folder.'/'.$name.'.component.spec.js', $spec);
         }
