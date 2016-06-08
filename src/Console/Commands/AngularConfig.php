@@ -21,7 +21,7 @@ class AngularConfig extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new config in angular/config';
+    protected $description = 'Create a new config in frontend/config';
 
     /**
      * Create a new command instance.

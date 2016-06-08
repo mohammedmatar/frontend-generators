@@ -19,7 +19,7 @@ class AngularDialog extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new dialog in angular/dialog';
+    protected $description = 'Create a new dialog in frontend/dialog';
 
     /**
      * Create a new command instance.

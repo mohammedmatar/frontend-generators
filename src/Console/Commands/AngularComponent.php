@@ -21,7 +21,7 @@ class AngularComponent extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new component in angular/components';
+    protected $description = 'Create a new component in frontend/components';
 
     /**
      * Create a new command instance.

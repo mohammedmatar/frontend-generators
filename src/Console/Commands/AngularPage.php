@@ -19,7 +19,7 @@ class AngularPage extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new page in angular/app/pages';
+    protected $description = 'Create a new page in frontend/app/pages';
 
     /**
      * Create a new command instance.

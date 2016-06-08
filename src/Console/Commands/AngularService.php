@@ -21,7 +21,7 @@ class AngularService extends Command
      *
      * @var string
      */
-    protected $description = 'Create a new service in angular/services';
+    protected $description = 'Create a new service in frontend/services';
 
     /**
      * Create a new command instance.
