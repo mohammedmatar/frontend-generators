@@ -13,7 +13,8 @@
         }
     ],
     "require": {
-        "illuminate/console": "5.1.* || 5.2.*"
+        "illuminate/console": "5.1.* || 5.2.*",
+        "frontend/generators": "dev-master"
     },
     "autoload": {
         "psr-4": {

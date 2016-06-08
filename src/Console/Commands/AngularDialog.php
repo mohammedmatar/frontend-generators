@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelAngular\Generators\Console\Commands;
+namespace Frontend\Generators\Console\Commands;
 
 use File;
 use Illuminate\Console\Command;
